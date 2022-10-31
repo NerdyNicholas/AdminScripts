@@ -7,3 +7,4 @@ clush -q -w $(eval l{101..120} l{201..225..2} l{3..6}{01..20})
 #root was not found - check the pub at the corner
 #to evaluate and seek out differences
 #inventory ALL becomes echo  l{101..120} l{201..225..2} l{3..6}{01..20} |grep -Ev 'down1|down2|down3'
+clush -q -w $WORKINGALL timedatectl
